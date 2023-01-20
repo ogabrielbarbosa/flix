@@ -11,10 +11,12 @@ import { ContainerHeader, TextFlix, ContainerNav } from './styles';
 function Header() {
   return (
     <ContainerHeader>
-      <TextFlix>Flix</TextFlix>
+      <Link to='/'>
+        <TextFlix>Flix</TextFlix>
+      </Link>
 
       <ContainerNav>
-        <Link to='/'>Filmes</Link>
+        <Link to='/favoritos'>Meus Filmes</Link>
       </ContainerNav>
     </ContainerHeader>
   );

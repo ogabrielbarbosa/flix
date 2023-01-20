@@ -100,7 +100,7 @@ export const SubContainerMovie = styled.div`
 `;
 
 export const SubContainer = styled.div`
-    background-image: linear-gradient(to right, rgba(21.5, 21.5, 21.5, 1) calc((50vw - 170px) - 340px), rgba(21.5, 21.5, 21.5, 0.84) 30%, rgba(21.5, 21.5, 21.5, 0.84) 100%);
+    background-image: linear-gradient(to right, rgba(21.5, 21.5, 21.5, 1) calc((30vw - 170px) - 340px), rgba(21.5, 21.5, 21.5, 0.84) 30%, rgba(21.5, 21.5, 21.5, 0.84) 100%);
 `;
 
 export const Title = styled.span`

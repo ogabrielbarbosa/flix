@@ -11,7 +11,7 @@ export const ContainerHeader = styled.div`
 `;
 
 export const TextFlix = styled.span`
-    font-family: 'Inter';
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
@@ -19,5 +19,11 @@ export const TextFlix = styled.span`
 `;
 
 export const ContainerNav = styled.div`
-    
+    a{
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+    }
 `;

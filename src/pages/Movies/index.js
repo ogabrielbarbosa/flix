@@ -10,6 +10,8 @@ import Header from '../../components/Header';
 import { AiFillHeart } from 'react-icons/ai';
 import { BsFillPlayFill } from 'react-icons/bs';
 
+import { toast } from 'react-toastify';
+
 function Movies() {
   const [filme, setFilme] = useState({});
   const [loading, setLoading] = useState(true);
@@ -44,13 +46,13 @@ function Movies() {
     const hasFilme = filmesSalvos.some((filmesSalvo) => filmesSalvo.id === filme.id)
 
     if (hasFilme) {
-      alert('Esse filme ja tem!');
+      toast.error('Esse filme ja tem!');
       return;
     }
 
     filmesSalvos.push(filme);
     localStorage.setItem("@flix", JSON.stringify(filmesSalvos));
-
+    toast.success('Filme salvo');
   }
 
   if (loading) {
