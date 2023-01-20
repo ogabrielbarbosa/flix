@@ -2,8 +2,8 @@
   <img alt="Mockup - Pokedex" src="https://raw.githubusercontent.com/ogabrielbarbosa/flix/main/src/Flix.png" width="100%">
 </p>
 
-<h1 align="center">TCC - Professor</h1>
-<p align="center">Projeto em <strong>React</strong> desenvolvido a fim de testar API de Pokedéx.</p>
+<h1 align="center">Flix</h1>
+<p align="center">Projeto em <strong>React</strong> desenvolvido a fim de testar API de Filmes.</p>
 
 <p align="center">
   <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,12 +16,11 @@
     Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 - [React](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [PokeAPI](https://pokeapi.co/)
+- [TheMovieDB](https://www.themoviedb.org/)
 
 ## 🔥 Preview
 
-Se você quiser ver com seus próprios olhos acesse [Pokedéx.](https://pokedex.gabarbosa.com/)
+Se você quiser ver com seus próprios olhos acesse [Flix.](https://flix.gabarbosa.com/)
 
 ## 🚀 Instalação e execução
 
@@ -46,7 +45,7 @@ O app estará disponível para acesso em seu navegador em <http://localhost:3000
 
 ## 💻 Projeto
 
-Para o desenvolvimento desse projeto foi utilizado a framework ReactJS e TypeScript. Todos os dados dos pokémons foram tirados da [PokéApi](https://pokeapi.co/).
+Para o desenvolvimento desse projeto foi utilizado a framework ReactJS. Todos os dados dos pokémons foram tirados da [TheMovieDB](https://www.themoviedb.org/).
 
 ## 📝 Licença
 
